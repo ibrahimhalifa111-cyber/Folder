@@ -1,5 +1,5 @@
 num=10
-while [ num -lt 50 ]
+while [ $num -lt 50 ]
 do
     echo "hello"
     num=$((num + 1))
