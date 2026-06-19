@@ -1,6 +1,8 @@
-num=10
-while [ $num -lt 50 ]
-do
-    echo "hello"
-    num=$((num + 1))
-done
+echo "how old are u"
+read Q
+if [$Q -lt 18]
+then
+    echo "you are minor"
+else
+    echo "admited"
+fi 
