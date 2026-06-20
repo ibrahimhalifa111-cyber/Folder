@@ -1,8 +1,1 @@
-echo "how old are u"
-read Q
-if [$Q -lt 18]
-then
-    echo "you are minor"
-else
-    echo "admited"
-fi 
+echo "testing new branch"
